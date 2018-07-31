@@ -1,0 +1,74 @@
+[2018-07-30 13:36:14,262] 
+[2018-07-30 13:36:14,262] **************************************************************
+[2018-07-30 13:36:14,262] FT60X D3XX PYTHON DATA STREAMING DEMO
+[2018-07-30 13:36:14,262] WORKSTATION,LAB520CHESTER
+[2018-07-30 13:36:14,263] OSVERSION,Windows 10,AMD64
+[2018-07-30 13:36:14,263] OPERATOR,Chester
+[2018-07-30 13:36:14,263] DATE,2018-07-30
+[2018-07-30 13:36:14,263] TIME,13:36:14
+[2018-07-30 13:36:14,263] PYTHON,3.6.5
+[2018-07-30 13:36:14,264] **************************************************************
+[2018-07-30 13:36:14,264] 
+[2018-07-30 13:36:14,264] 
+[2018-07-30 13:36:14,264] 
+[2018-07-30 13:36:14,264] 
+[2018-07-30 13:36:14,264] USAGE: datastreaming.py [-h] [-s SIZE] [-i ITERATION] [-c [CHANNEL [CHANNEL ..]]] [-r] [-w] [-t]
+[2018-07-30 13:36:14,264] 
+[2018-07-30 13:36:14,266] INPUT: CHANNELS=[0], SIZE=16777216, ITERATION=16, WRITE=True, READ=True, STRESS=True
+[2018-07-30 13:36:14,266] 
+[2018-07-30 13:36:14,266] 
+[2018-07-30 13:36:14,377] Detected 1 device(s) connected.
+[2018-07-30 13:36:14,378] DEVICE[0]
+[2018-07-30 13:36:14,378] 	Flags = 2
+[2018-07-30 13:36:14,378] 	Type = 0
+[2018-07-30 13:36:14,378] 	ID = 0X0403601E
+[2018-07-30 13:36:14,378] 	LocId = 0
+[2018-07-30 13:36:14,379] 	SerialNumber = 000000000001
+[2018-07-30 13:36:14,379] 	Description = FTDIUSB3.0ForALPIDE
+[2018-07-30 13:36:14,402] Library Version: 0X1020006
+[2018-07-30 13:36:14,402] Driver Version: 0X1030002
+[2018-07-30 13:36:14,402] Firmware Version: 0X000109
+[2018-07-30 13:36:14,403] Warning: Device is connected using USB2 cable or through USB2 host controller!
+[2018-07-30 13:36:14,403] Chip Configuration:
+[2018-07-30 13:36:14,403] 	VendorID = 0x0403
+[2018-07-30 13:36:14,403] 	ProductID = 0x601e
+[2018-07-30 13:36:14,403] 	StringDescriptors
+[2018-07-30 13:36:14,403] 		Manufacturer = FTDI
+[2018-07-30 13:36:14,403] 		ProductDescription = FTDIUSB3.0ForALPIDE
+[2018-07-30 13:36:14,404] 		SerialNumber = 000000000001
+[2018-07-30 13:36:14,404] 	InterruptInterval = 0x09
+[2018-07-30 13:36:14,404] 	PowerAttributes = 0xe0 (Self-powered Remote wakeup)
+[2018-07-30 13:36:14,404] 	PowerConsumption = 0x60
+[2018-07-30 13:36:14,404] 	Reserved2 = 0x00
+[2018-07-30 13:36:14,404] 	FIFOClock = 0x01 (66 MHz)
+[2018-07-30 13:36:14,404] 	FIFOMode = 0x00 (245 Mode)
+[2018-07-30 13:36:14,404] 	ChannelConfig = 0x02 (1 Channel)
+[2018-07-30 13:36:14,404] 	OptionalFeatureSupport = 0x0000
+[2018-07-30 13:36:14,404] 		BatteryChargingEnabled  : 0
+[2018-07-30 13:36:14,405] 		DisableCancelOnUnderrun : 0
+[2018-07-30 13:36:14,405] 		NotificationEnabled     : 0 0 0 0
+[2018-07-30 13:36:14,405] 		UnderrunEnabled         : 0 0 0 0
+[2018-07-30 13:36:14,405] 		EnableFifoInSuspend     : 0
+[2018-07-30 13:36:14,405] 		DisableChipPowerdown    : 0
+[2018-07-30 13:36:14,405] 	BatteryChargingGPIOConfig = 0x0
+[2018-07-30 13:36:14,405] 	FlashEEPROMDetection = 0x10 (read-only)
+[2018-07-30 13:36:14,406] 		Custom Config Validity  : Valid
+[2018-07-30 13:36:14,406] 		Custom Config Checksum  : Valid
+[2018-07-30 13:36:14,406] 		GPIO Input              : Ignore
+[2018-07-30 13:36:14,406] 		Config Used             : Custom
+[2018-07-30 13:36:14,406] 	MSIO_Control = 0x00010800
+[2018-07-30 13:36:14,406] 	GPIO_Control = 0x00000000
+[2018-07-30 13:36:14,406] 
+[2018-07-30 13:36:16,395] W[0] Transferring 67108864(4194304x16) bytes took 1.90 sec. Rate is 33 MBps.
+[2018-07-30 13:36:26,430] Read[0X82] error status 32 (FT_OTHER_ERROR)
+[2018-07-30 13:36:26,430] R[0] Transferring 67108864(4194304x16) bytes took 10.03 sec. Rate is 6 MBps.
+[2018-07-30 13:36:26,431] Channel[0] streaming failed
+[2018-07-30 13:36:26,431] 
+[2018-07-30 13:36:26,436] NOTE: FPGA device should be using the STREAMER sample for FT0 66MHz 245Mode.
+[2018-07-30 13:36:26,437] If test fails or hangs, below is the basic troubleshooting guide:
+[2018-07-30 13:36:26,437] 1) Unplug/plug device.
+[2018-07-30 13:36:26,437] 2) No other D3XX application is open.
+[2018-07-30 13:36:26,437] 3) FPGA image is for 245Mode. And chip is configured using same mode.
+[2018-07-30 13:36:26,438] 4) FPGA image is for FT0 (16bit). And PCB module has matching architecture.
+[2018-07-30 13:36:26,439] 5) Jumpers and switches are set correctly on FPGA and PCB module.
+[2018-07-30 13:36:26,439] 

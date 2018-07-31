@@ -1,0 +1,198 @@
+[2018-07-30 11:46:57,545] 
+[2018-07-30 11:46:57,545] **************************************************************
+[2018-07-30 11:46:57,545] FT60X D3XX PYTHON DATA LOOPBACK DEMO
+[2018-07-30 11:46:57,545] WORKSTATION,LAB520CHESTER
+[2018-07-30 11:46:57,546] OSVERSION,Windows 10,AMD64
+[2018-07-30 11:46:57,546] OPERATOR,Chester
+[2018-07-30 11:46:57,546] DATE,2018-07-30
+[2018-07-30 11:46:57,546] TIME,11:46:57
+[2018-07-30 11:46:57,546] PYTHON,3.6.5
+[2018-07-30 11:46:57,546] **************************************************************
+[2018-07-30 11:46:57,546] 
+[2018-07-30 11:46:57,546] 
+[2018-07-30 11:46:57,546] 
+[2018-07-30 11:46:57,546] 
+[2018-07-30 11:46:57,547] USAGE: dataloopback.py [-h] [-s SIZE] [-t] [-c [CHANNEL [CHANNEL ...]]]
+[2018-07-30 11:46:57,547] 
+[2018-07-30 11:46:57,549] INPUT: SIZE=0, STRESS=True, CHANNELS=[0, 1, 2, 3]
+[2018-07-30 11:46:57,549] 
+[2018-07-30 11:46:57,549] 
+[2018-07-30 11:46:57,643] Detected 1 device(s) connected.
+[2018-07-30 11:46:57,643] DEVICE[0]
+[2018-07-30 11:46:57,644] 	Flags = 2
+[2018-07-30 11:46:57,644] 	Type = 0
+[2018-07-30 11:46:57,644] 	ID = 0X0403601E
+[2018-07-30 11:46:57,644] 	LocId = 0
+[2018-07-30 11:46:57,644] 	SerialNumber = 000000000001
+[2018-07-30 11:46:57,644] 	Description = FTDIUSB3.0ForALPIDE
+[2018-07-30 11:46:57,669] Library Version: 0X1020006
+[2018-07-30 11:46:57,670] Driver Version: 0X1030002
+[2018-07-30 11:46:57,670] Firmware Version: 0X000109
+[2018-07-30 11:46:57,670] Chip Configuration:
+[2018-07-30 11:46:57,670] 	VendorID = 0x0403
+[2018-07-30 11:46:57,670] 	ProductID = 0x601e
+[2018-07-30 11:46:57,670] 	StringDescriptors
+[2018-07-30 11:46:57,671] 		Manufacturer = FTDI
+[2018-07-30 11:46:57,671] 		ProductDescription = FTDIUSB3.0ForALPIDE
+[2018-07-30 11:46:57,671] 		SerialNumber = 000000000001
+[2018-07-30 11:46:57,671] 	InterruptInterval = 0x09
+[2018-07-30 11:46:57,671] 	PowerAttributes = 0xe0 (Self-powered Remote wakeup)
+[2018-07-30 11:46:57,671] 	PowerConsumption = 0x60
+[2018-07-30 11:46:57,671] 	Reserved2 = 0x00
+[2018-07-30 11:46:57,671] 	FIFOClock = 0x01 (66 MHz)
+[2018-07-30 11:46:57,671] 	FIFOMode = 0x00 (245 Mode)
+[2018-07-30 11:46:57,671] 	ChannelConfig = 0x02 (1 Channel)
+[2018-07-30 11:46:57,671] 	OptionalFeatureSupport = 0x0000
+[2018-07-30 11:46:57,671] 		BatteryChargingEnabled  : 0
+[2018-07-30 11:46:57,672] 		DisableCancelOnUnderrun : 0
+[2018-07-30 11:46:57,672] 		NotificationEnabled     : 0 0 0 0
+[2018-07-30 11:46:57,672] 		UnderrunEnabled         : 0 0 0 0
+[2018-07-30 11:46:57,672] 		EnableFifoInSuspend     : 0
+[2018-07-30 11:46:57,672] 		DisableChipPowerdown    : 0
+[2018-07-30 11:46:57,672] 	BatteryChargingGPIOConfig = 0x0
+[2018-07-30 11:46:57,672] 	FlashEEPROMDetection = 0x10 (read-only)
+[2018-07-30 11:46:57,673] 		Custom Config Validity  : Valid
+[2018-07-30 11:46:57,673] 		Custom Config Checksum  : Valid
+[2018-07-30 11:46:57,673] 		GPIO Input              : Ignore
+[2018-07-30 11:46:57,673] 		Config Used             : Custom
+[2018-07-30 11:46:57,673] 	MSIO_Control = 0x00010800
+[2018-07-30 11:46:57,673] 	GPIO_Control = 0x00000000
+[2018-07-30 11:46:57,673] 
+[2018-07-30 11:46:57,676] Write[0X02] bytesTransferred 512
+[2018-07-30 11:46:57,676] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,676] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,677] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,677] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,677] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,677] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,678] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,678] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,679] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,679] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,679] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,680] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,680] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,680] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,681] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,681] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,681] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,682] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,682] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,683] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,683] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,683] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,684] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,684] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,684] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,685] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,685] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,685] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,686] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,686] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,686] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,687] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,687] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,687] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,688] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,688] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,688] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,689] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,689] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,689] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,689] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,690] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,690] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,690] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,691] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,691] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,691] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,692] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,692] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,693] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,694] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,694] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,695] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,695] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,696] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,696] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,697] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,697] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,698] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,698] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,699] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,699] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,700] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,700] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,700] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,701] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,701] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,702] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,702] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,703] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,703] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,704] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,704] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,705] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,705] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,705] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,705] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,706] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,706] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,706] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,707] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,707] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,708] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,708] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,708] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,709] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,709] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,709] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,710] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,710] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,711] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,711] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,711] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,712] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,712] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,712] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,713] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,713] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,713] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,714] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,714] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,714] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,715] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,716] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,717] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,718] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,719] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,719] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,720] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,720] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,720] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,720] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,721] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,721] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,721] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,721] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,722] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,722] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,722] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,723] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,723] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,723] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,723] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,723] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,723] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,723] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,724] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,724] Read[0X82] bytesTransferred 4
+[2018-07-30 11:46:57,729] Channel[0] loopback failed
+[2018-07-30 11:46:57,774] NOTE: FPGA device should be using the LOOPBACK sample for FT0 66MHz 245Mode.
+[2018-07-30 11:46:57,774] If test fails or hangs, below is the basic troubleshooting guide:
+[2018-07-30 11:46:57,775] 1) Unplug/plug device.
+[2018-07-30 11:46:57,775] 2) No other D3XX application is open.
+[2018-07-30 11:46:57,775] 3) FPGA image is for 245Mode. And chip is configured using same mode.
+[2018-07-30 11:46:57,775] 4) FPGA image is for FT0 (16bit). And PCB module has matching architecture.
+[2018-07-30 11:46:57,775] 5) Jumpers and switches are set correctly on FPGA and PCB module.
+[2018-07-30 11:46:57,775] 
